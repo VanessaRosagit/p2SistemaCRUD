@@ -180,9 +180,6 @@ Depois execute a classe `Main` (ou pressione `F6`).
 
 ## Observações
 
-- Os comandos SQL são montados concatenando texto, como visto em aula. Em um sistema real, o
-  correto é usar `PreparedStatement` para evitar SQL Injection, e um algoritmo de hash mais forte
-  que o MD5 para guardar senhas.
 - O sistema foi feito para fins didáticos.
 
 ---
