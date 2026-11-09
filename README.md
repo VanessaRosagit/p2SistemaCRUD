@@ -189,7 +189,7 @@ Depois execute a classe `Main` (ou pressione `F6`).
 
 ## Autor
 
-- **Nome:** _[Vanessa Aparecida Rosa da Silva]_
+- **Nome:** _Vanessa Aparecida Rosa da Silva_
 - **Curso:** Sistemas para Internet — FATEC São Roque
 - **Disciplina:** Desenvolvimento para Servidores  — Prof. Marcos 
 - **Data de entrega:** até 12/11/2026
