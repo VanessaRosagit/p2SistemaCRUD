@@ -13,10 +13,9 @@ package com.vanessarosa.p2sistemacrud;
 public class Main {
 
     public static void main(String[] args) {
-                     // TelaLogin tela = new TelaLogin();
-       // tela.setVisible(true);
-     TelaCadastro panelCadastro = new TelaCadastro();
-        panelCadastro.setVisible(true);
+                     TelaLogin tela = new TelaLogin();
+        tela.setVisible(true);
+     
 
 
     }

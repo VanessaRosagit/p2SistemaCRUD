@@ -4,11 +4,9 @@ package com.vanessarosa.p2sistemacrud;
 
 /**
  *
- * @author Professor Marcos Costa
+ * @author Vanessa
  */
-/*
-Importações de todas as bibliotecas que estou utilizando na classe
-*/
+
 import java.awt.Font;
 import java.awt.HeadlessException;
 import java.awt.SystemColor;
@@ -35,7 +33,7 @@ public class TelaCadastro extends JFrame {
     public TelaCadastro() {
         setLocationRelativeTo(null);
         setResizable(false);
-        setTitle("Cadastro");
+        setTitle("Fatec - Cadastro ");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(500, 200, 426, 230);
 
@@ -48,7 +46,7 @@ public class TelaCadastro extends JFrame {
         JLabel lblIdentificacao = new JLabel("Informar campos para cadastro");
         lblIdentificacao.setBounds(60, 0, 500, 39);
         lblIdentificacao.setFont(new Font("Arial", 3, 19));
-        tela.add(lblIdentificacao);   //adiciono o meu label ao meu Panel
+        tela.add(lblIdentificacao);   
 
         JLabel lblNome = new JLabel("Nome");
         lblNome.setBounds(24, 50, 70, 15);
@@ -158,6 +156,11 @@ btnCadastrar.addActionListener((ActionEvent e) ->{
     }
 });
 
+    }
+
+    void abreTela() {
+        TelaCadastro panelCadastro = new TelaCadastro();
+        panelCadastro.setVisible(true);
     }
 
     
