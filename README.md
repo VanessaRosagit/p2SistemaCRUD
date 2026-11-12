@@ -98,7 +98,7 @@ values ('Vanessa', 'Vanessa Rosa', md5('1234'));
 ### Pré-requisitos
 
 - JDK 21 instalado
-- MySQL ou MariaDB em execução
+- MySQL  em execução
 - NetBeans (ou outra IDE com suporte a Maven)
 - Internet na primeira execução, para o Maven baixar o driver do banco
 
@@ -187,6 +187,6 @@ Depois execute a classe `Main` (ou pressione `F6`).
 ## Autor
 
 - **Nome:** _Vanessa Aparecida Rosa da Silva_
-- **Curso:** Sistemas para Internet — FATEC São Roque
+- **Curso:** Sistemas para Internet 4° Semestre — FATEC São Roque
 - **Disciplina:** Desenvolvimento para Servidores  — Prof. Marcos 
 - **Data de entrega:** até 12/11/2026
